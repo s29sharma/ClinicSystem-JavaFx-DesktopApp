@@ -1,0 +1,83 @@
+ .root{-fx-background-image: url("dashboard.png");
+ 	-fx-background-repeat:no-repeat ;
+ 	-fx-border-color:black ;
+ 	-fx-border-style:dashed ;
+ 	
+  	}
+ 
+.menu-bar {
+    -fx-background-color: derive(#1d1d1d,20%);
+}
+
+
+.menu-bar .label {
+    -fx-font-size: 17pt;
+    -fx-font-family: "Arial Narrow";
+    -fx-text-fill: white;
+    -fx-opacity: 0.9;
+}
+
+.menu-bar:focused{
+	-fx-background-color: darkgray;
+}
+
+.menu-bar .label:focused{
+	-fx-background-color: darkgray;
+}
+
+.menu .left-container {
+    -fx-background-color: black;
+}
+
+.menu-item {
+	-fx-background-color: derive(#1d1d1d,20%);
+}
+
+.menu-item:focused {
+     -fx-background-color: darkgray;
+}
+
+.menu-item .label{
+	 -fx-font-size: 17pt;
+    -fx-font-family: "Arial Narrow";
+    -fx-text-fill: white;
+    -fx-opacity: 0.9;
+}
+.menu-item .left-container{
+	-fx-background-color: black;
+}
+ .menu-bar .lable:hover{
+ 	
+ }
+ 
+ 
+
+
+ .label{
+	-fx-text-fill:black;
+    -fx-font-size: 22px;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-weight: bold;
+}
+#welcome-label{
+	-fx-font-size: 25px;
+	-fx-text-fill:crimson ;
+}
+.button {
+    -fx-text-fill:black ;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(#61a2b1, #2A5058);
+}
+.button:hover {
+    -fx-background-color: linear-gradient(#2A5058, #61a2b1);
+}
+
+#button{
+	     -fx-text-fill: black;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(#61a2b1, #2A5058);
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+
+}
